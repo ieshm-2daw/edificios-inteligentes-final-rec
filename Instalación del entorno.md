@@ -133,5 +133,15 @@ A continuación, conectamos la tarjeta a la Raspberry Pi y la iniciamos. Deberem
 
 Por último, desde Home Assistant, instalamos los complementos que necesitemos. En nuestro caso serán: ESPHome, Grafana, InfluxDB y Node-Red.
 
+![Captura desde 2025-03-27 10-25-02](https://github.com/user-attachments/assets/d8f28504-7e3e-4aee-b5f2-7e54fb79c578)
+
+![Captura desde 2025-03-27 10-25-19](https://github.com/user-attachments/assets/55e082e3-067a-49d4-a3eb-096a23950a18)
+
+![Captura desde 2025-03-27 10-25-34](https://github.com/user-attachments/assets/e827cf96-387e-486c-b28d-5978afeb82f7)
+
+![Captura desde 2025-03-27 10-25-45](https://github.com/user-attachments/assets/423c43fa-dd85-4009-a540-c8e0037e0bfc)
+
+![Captura desde 2025-03-27 10-28-09](https://github.com/user-attachments/assets/6a54d243-5bde-4c49-b8ab-3cce606e580d)
+
 
 _Realizado por Alba Martín Díaz_
