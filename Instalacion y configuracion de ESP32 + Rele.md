@@ -40,6 +40,7 @@ Presionaremos en seleccionar archivo,seleccionaremos el archivo **.yaml** descar
 
 ![alt text](image-2.png)
 
+Una vez instalado nos volvemos a ir al **Home Assitant** y en el apartado de **ESPHome Builder**,le damos a **EDIT** y una vez dentro pondremos la siguiente configuracion para el rele.
 
 switch:
  - platform: gpio
@@ -47,5 +48,6 @@ switch:
    pin: GPIO19
 
 
+![alt text](image-3.png)
 
 
