@@ -51,3 +51,6 @@ switch:
 ![alt text](image-3.png)
 
 
+Cuando lo hayamos puesto le daremos a **SAVE** y a **Instalar** por **plug into this computer**,si vemos que al poner el archivo .yaml y darle a instalar , no se nos conecta ,tendremos que pulsar el **boton boot** de la **ESP32** para que lo haga.
+
+![alt text](image-4.png)
