@@ -10,4 +10,18 @@ Se abrira una ventana donde podremos configurar el nombre de nuestro dispositivo
 
 ![image](https://github.com/user-attachments/assets/a9acd7a7-0cd7-43e1-a91a-f21c360e053a)
 
+Elegimos el dispositivo de la lista (en nuestro caso ESP32) y seguimos los pasos.Cuando terminemos la configuración del dispositivo 
+saltará una ventana indicando la clave de encriptación y  pulsamos en Install:
+
+![image](https://github.com/user-attachments/assets/8bc774df-0a1d-44f0-ba91-d7ea7606b90e)
+
+![image](https://github.com/user-attachments/assets/8b581ecd-6ce3-4c9a-9ea5-ff71a60c8d16)
+
+
+En la siguiente ventana , despues de pulsar install deberemos especificar cómo queremos instalar el archivo .yaml en el dispositivo.
+Pulsaremos en la opcion **plug into this computer**
+
+![image](https://github.com/user-attachments/assets/c89e8c0e-0ad6-4068-b6e8-bde5ca5e9d51)
+
+
 
