@@ -4,4 +4,10 @@ una vez conectado abriremos **Home Assistant en nuestro navegador** , introducir
 
 Una vez alli haremos click donde pone **NEW DEVICE**
 
+![image](https://github.com/user-attachments/assets/0d5ea087-94cb-4fb7-95af-bad9166d7033)
+
+Se abrira una ventana donde podremos configurar el nombre de nuestro dispositivo.Cuando lo hayamos introducido pulsamos Next:
+
+![image](https://github.com/user-attachments/assets/a9acd7a7-0cd7-43e1-a91a-f21c360e053a)
+
 
