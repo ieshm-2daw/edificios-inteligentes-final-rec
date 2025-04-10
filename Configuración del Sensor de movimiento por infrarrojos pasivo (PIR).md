@@ -44,3 +44,6 @@ Normalmente, estos sensores tienen dos potenciómetros (ruedita) que permiten re
 Muchos sensores tienen marcas como "TIME" y "SENS" al lado de las ruedecitas. Si no están marcadas, puedes hacer una prueba:
 - Mueve una rueda completamente a un lado, activa el sensor y observa.
 - Si el tiempo cambia, es TIME. Si cambia la distancia de detección, es SENS.
+
+
+_Realizado por Alba Martín Díaz_
