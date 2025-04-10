@@ -23,5 +23,17 @@ Pulsaremos en la opcion **plug into this computer**
 
 ![image](https://github.com/user-attachments/assets/c89e8c0e-0ad6-4068-b6e8-bde5ca5e9d51)
 
+Una vez pulsado nos parecera la siguiente pestaña , donde tendramos que esperar unos minutos a que prepare el archivo .yaml para poder
+descargarlo.
+
+![image](https://github.com/user-attachments/assets/536bd7f5-cc15-4de2-b3ab-0f4b1645df2b)
+
+Le daremos a **OPEN ESPHOME WEB** y nos llevara a la siguiente pestaña:
+
+![image](https://github.com/user-attachments/assets/db555434-55f8-4acb-b208-77d2aa859b75)
+
+Pulsaremos en conectar y seleccionaremos la conexion usb de nuestro ordenador:
+
+
 
 
