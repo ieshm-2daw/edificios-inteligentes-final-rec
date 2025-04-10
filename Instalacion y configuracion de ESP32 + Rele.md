@@ -32,7 +32,19 @@ Le daremos a **OPEN ESPHOME WEB** y nos llevara a la siguiente pestaña:
 
 ![image](https://github.com/user-attachments/assets/db555434-55f8-4acb-b208-77d2aa859b75)
 
-Pulsaremos en conectar y seleccionaremos la conexion usb de nuestro ordenador:
+Pulsaremos en conectar y seleccionaremos la conexion usb de nuestro ordenador,una ve hecho se nos abrira la siguiente pestaña:
+
+![alt text](image-1.png)
+
+Presionaremos en seleccionar archivo,seleccionaremos el archivo **.yaml** descargado previamente y pulsaremos **instalar**.
+
+![alt text](image-2.png)
+
+
+switch:
+ - platform: gpio
+   name: "Relay"
+   pin: GPIO19
 
 
 
