@@ -38,5 +38,6 @@ Pulsaremos en conectar y seleccionaremos la conexión usb de nuestro ordenador, 
 
 Presionaremos en seleccionar archivo, seleccionaremos el archivo .yaml descargado previamente y pulsaremos instalar .
 
-texto alternativo
+![image](https://github.com/user-attachments/assets/c4a9e80d-d1f4-4666-8de0-20dc7bf553b0)
+
 
