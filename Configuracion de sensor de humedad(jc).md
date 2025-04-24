@@ -11,4 +11,7 @@ Ahora nos iremos a nuestro HomeAssitant , en el apartado de **ESPHome Builder** 
 
 ![image](https://github.com/user-attachments/assets/b5ac3b13-bc34-4227-a64f-7087bf74b86a)
 
+![image](https://github.com/user-attachments/assets/ed6aa6d3-a31a-4096-9ea8-b0c0b231e1c7)
+
+
 Una vez hecho le daremos a **Save** y a **install**, 
