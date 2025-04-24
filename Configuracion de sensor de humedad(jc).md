@@ -48,6 +48,7 @@ Una vez hecho todo esto nos iremos al resumen de nuestro **Home Assitant** y ver
 El siguiente sensor sera el de iluminosidad , que seguiremos los mismos pasos que hemos seguido antes con el de humedad pero cambiando algunos detalles.
 
 Una de los apartados que cambian es en nuestra **ESP32** el codigo que tenemos que poner para que el sensor de iluminocidad funcione.
+Que sera el siguiente:
 
 ![image](https://github.com/user-attachments/assets/9a556513-5634-4de1-8a96-2934295980c2)
 
