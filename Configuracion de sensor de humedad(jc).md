@@ -15,3 +15,9 @@ Ahora nos iremos a nuestro HomeAssitant , en el apartado de **ESPHome Builder** 
 
 
 Una vez hecho le daremos a **Save** y a **install**, una vez hecho esto seguiremos descargando el archivo .yaml e instalandolo como hicimos anteriormente en la isntalacion del **ESP32**.
+
+Esto seria un breve resumen:
+
+En la siguiente ventana, después de pulsar install debemos especificar cómo queremos instalar el archivo .yaml en el dispositivo. Pulsaremos en la opción conectar a esta computadora
+
+
