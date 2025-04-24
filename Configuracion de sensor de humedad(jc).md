@@ -20,4 +20,6 @@ Esto seria un breve resumen:
 
 En la siguiente ventana, después de pulsar install debemos especificar cómo queremos instalar el archivo .yaml en el dispositivo. Pulsaremos en la opción conectar a esta computadora
 
+![image](https://github.com/user-attachments/assets/c370e0e0-8a1a-42d8-8063-2ec6b666847a)
+
 
