@@ -41,3 +41,6 @@ Presionaremos en seleccionar archivo, seleccionaremos el archivo .yaml descargad
 ![image](https://github.com/user-attachments/assets/c4a9e80d-d1f4-4666-8de0-20dc7bf553b0)
 
 
+Una vez hecho todo esto nos iremos al resumen de nuestro **Home Assitant** y veremos que ya nos salen las mediciones de temperatura y humedad.
+
+![image](https://github.com/user-attachments/assets/720f91d8-3cf0-4d2b-b3a5-ce0562331752)
