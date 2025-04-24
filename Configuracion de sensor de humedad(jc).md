@@ -28,7 +28,8 @@ Una vez pulsado nos parecerá la siguiente pestaña, donde tendremos que esperar
 
 Le daremos a OPEN ESPHOME WEB y nos llevara a la siguiente pestaña:
 
-imagen
+![image](https://github.com/user-attachments/assets/f51116da-3ac1-4de1-aaea-bf1b7db7f9f3)
+
 
 Pulsaremos en conectar y seleccionaremos la conexión usb de nuestro ordenador, una vez hecho se nos abrirá la siguiente pestaña:
 
