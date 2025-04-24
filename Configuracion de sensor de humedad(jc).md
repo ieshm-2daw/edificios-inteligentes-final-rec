@@ -24,4 +24,7 @@ En la siguiente ventana, después de pulsar install debemos especificar cómo qu
 
 Una vez pulsado nos parecerá la siguiente pestaña, donde tendremos que esperar unos minutos a que prepare el archivo .yaml para poder descargarlo.
 
+![image](https://github.com/user-attachments/assets/b903edf2-7b43-4113-bd10-3b6d3f57ee7e)
+
+
 
