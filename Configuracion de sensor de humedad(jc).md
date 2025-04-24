@@ -44,3 +44,6 @@ Presionaremos en seleccionar archivo, seleccionaremos el archivo .yaml descargad
 Una vez hecho todo esto nos iremos al resumen de nuestro **Home Assitant** y veremos que ya nos salen las mediciones de temperatura y humedad.
 
 ![image](https://github.com/user-attachments/assets/720f91d8-3cf0-4d2b-b3a5-ce0562331752)
+
+El siguiente sensor sera el de iluminosidad , que seguiremos los mismos pasos que hemos seguido antes con el de humedad pero cambiando algunos detalles.
+
