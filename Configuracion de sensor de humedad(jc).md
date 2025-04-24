@@ -52,3 +52,4 @@ Que sera el siguiente:
 
 ![image](https://github.com/user-attachments/assets/9a556513-5634-4de1-8a96-2934295980c2)
 
+Despues de esto lo que tendremos que hacer es la parte de instalar el archivo .yaml como ya hemos explicado antes.
