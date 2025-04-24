@@ -14,4 +14,4 @@ Ahora nos iremos a nuestro HomeAssitant , en el apartado de **ESPHome Builder** 
 ![image](https://github.com/user-attachments/assets/ed6aa6d3-a31a-4096-9ea8-b0c0b231e1c7)
 
 
-Una vez hecho le daremos a **Save** y a **install**, 
+Una vez hecho le daremos a **Save** y a **install**, una vez hecho esto seguiremos descargando el archivo .yaml e instalandolo como hicimos anteriormente en la isntalacion del **ESP32**.
