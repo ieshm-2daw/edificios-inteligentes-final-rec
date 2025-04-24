@@ -33,7 +33,8 @@ Le daremos a OPEN ESPHOME WEB y nos llevara a la siguiente pestaña:
 
 Pulsaremos en conectar y seleccionaremos la conexión usb de nuestro ordenador, una vez hecho se nos abrirá la siguiente pestaña:
 
-texto alternativo
+![image](https://github.com/user-attachments/assets/cf81805a-4e00-4676-83b9-536c14da9371)
+
 
 Presionaremos en seleccionar archivo, seleccionaremos el archivo .yaml descargado previamente y pulsaremos instalar .
 
