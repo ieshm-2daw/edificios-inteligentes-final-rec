@@ -33,6 +33,8 @@ A continuación se muestran los enlaces para visualizar cómo quedarían los cab
 <a href="" target="_blank">Haz clic para ver la imagen</a>
 
 
+## Configuración en ESPHome:
+
 Una vez que ya tenemos conectado nuestro módulo con nuestra ESP-32 físicamente, pasamos a configurar el sensor para poder realizar acciones con él. Para esto, nos dirigimos a la página prinicpal de Home Assistant y entramos en ESPHome, aquí editaremos nuestro archivo .yaml y añadiremos todo el código necesario para que nuestro módulo sea reconocido por nuestra ESP-32 y sea funcional. En nuestro caso nos hemos remitido a la propia web oficial de Home Assistant, donde nos dan toda la información y código necesarios para la configuración de nuesto módulo (https://esphome.io/components/binary_sensor/rc522.html). Aquí debajo se muestra el código que nos proporciona la propia página, quedando únicamente que cambiar los apartados "_pin:" por los que hemos designado físicamente (posteriormente, una vez que hagamos la primera interacción con los dispositivos nfc que trae el propio módulo, cambiaremos también el apartado "uid:" con el que nos saldrá en los logs).
 
 ```
@@ -52,4 +54,28 @@ binary_sensor:
 ```
 
 
-Ya sólo nos quedaría guardar e instalar nuestro nuevo archivo actualizado, lo haremos con la opción Wirelessly para que nos esa más fácil y rápido.
+Ya sólo nos quedaría guardar e instalar nuestro nuevo archivo actualizado, lo haremos con la opción Wirelessly para que nos esa más fácil y rápido, aunque también es posible cargarlo manualmente por USB.
+
+
+## Aplicación del módulo RC522:
+
+Este módulo, además de ser económico y confiable, tiene múltiples aplicaciones en proyectos de domótica escolar, entre ellas:
+
+- Control de acceso: Abrir cerraduras inteligentes con tarjetas.
+
+- Registro de asistencia: Gestionar la entrada y salida de alumnos y profesores.
+
+- Activación automática de sistemas: Encender luces, sensores o equipos al detectar una tarjeta.
+
+- Personalización del entorno: Adaptar la configuración del aula al usuario que accede.
+
+- Gestión de préstamos de material: Registrar quién toma y devuelve dispositivos o recursos.
+
+- Automatización de proyectos escolares: Asignar tareas, formar equipos y registrar progreso.
+
+- Notificaciones de seguridad: Alertar si se abre la puerta o se queda vacía el aula.
+
+- Acceso a contenido educativo: Desbloqueo automático de archivos o exámenes al pasar una tarjeta.
+
+
+_Realizado por Alba Martín Díaz_
