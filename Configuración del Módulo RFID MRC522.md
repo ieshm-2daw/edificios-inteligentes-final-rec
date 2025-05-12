@@ -22,9 +22,34 @@ MOSI (Master Out Slave In) es el canal por el cual el microcontrolador (ESP-32) 
 
 <div align="center">
   
-| Colores | Negro | Blanco | Naranja | Amarillo | Azul | Rojo |
-|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
-| Puerto del Módulo | GND | SDA | SCK | MOSI | MISO | 3.3V |
-| ESP32 | GND | D5 | D18 | D23 | D19 | 3V |
+| Colores           | Negro | Blanco | Naranja | Amarillo | Azul  | Rojo |
+|-------------------|--------|--------|---------|----------|-------|------|
+| Puerto del Módulo | GND    | SDA    | SCK     | MOSI     | MISO  | 3.3V |
+| ESP32             | GND    | D5     | D18     | D23      | D19   | 3V   |
 
 </div>
+
+A continuación se muestran los enlaces para visualizar cómo quedarían los cables definitivamente:
+<a href="" target="_blank">Haz clic para ver la imagen</a>
+
+
+Una vez que ya tenemos conectado nuestro módulo con nuestra ESP-32 físicamente, pasamos a configurar el sensor para poder realizar acciones con él. Para esto, nos dirigimos a la página prinicpal de Home Assistant y entramos en ESPHome, aquí editaremos nuestro archivo .yaml y añadiremos todo el código necesario para que nuestro módulo sea reconocido por nuestra ESP-32 y sea funcional. En nuestro caso nos hemos remitido a la propia web oficial de Home Assistant, donde nos dan toda la información y código necesarios para la configuración de nuesto módulo (https://esphome.io/components/binary_sensor/rc522.html). Aquí debajo se muestra el código que nos proporciona la propia página, quedando únicamente que cambiar los apartados "_pin:" por los que hemos designado físicamente (posteriormente, una vez que hagamos la primera interacción con los dispositivos nfc que trae el propio módulo, cambiaremos también el apartado "uid:" con el que nos saldrá en los logs).
+
+```
+spi:
+  clk_pin: D0
+  miso_pin: D1
+  mosi_pin: D2
+
+rc522_spi: # or rc522_i2c
+  cs_pin: D3
+  update_interval: 1s
+
+binary_sensor:
+  - platform: rc522
+    uid: 74-10-37-94
+    name: "RC522 RFID Tag"
+```
+
+
+Ya sólo nos quedaría guardar e instalar nuestro nuevo archivo actualizado, lo haremos con la opción Wirelessly para que nos esa más fácil y rápido.
