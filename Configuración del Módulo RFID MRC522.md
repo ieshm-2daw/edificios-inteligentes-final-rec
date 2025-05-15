@@ -114,17 +114,21 @@ A continuación se muestran las imágenes y vídeos extraídos del proceso de co
   <img src="https://github.com/user-attachments/assets/fa8f79e4-512a-40b6-a6bd-a6c5ee00e72e" width="300"/>
 </a>
 
+
 <a href="https://github.com/user-attachments/assets/7e69f6f1-e823-4d46-9433-8b0ac443b7e8">
   <img src="https://github.com/user-attachments/assets/7e69f6f1-e823-4d46-9433-8b0ac443b7e8" width="300"/>
 </a>
+
 
 <a href="https://github.com/user-attachments/assets/15eee5e3-2011-4891-abf3-735436dbf00a">
   <img src="https://github.com/user-attachments/assets/15eee5e3-2011-4891-abf3-735436dbf00a" width="300"/>
 </a>
 
+
 <a href="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466">
   <img src="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466" width="300"/>
 </a>
+
 
 <a href="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2">
   <img src="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2" width="300"/>
