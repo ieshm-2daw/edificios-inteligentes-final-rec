@@ -53,10 +53,10 @@ El siguiente sensor sera el de iluminosidad , que seguiremos los mismos pasos qu
 
 Una de los apartados que cambian es en nuestra **ESP32** el codigo que tenemos que poner para que el sensor de iluminocidad funcione.Ademas la sección i2c: activa y configura el bus necesario para que sensores como el BH1750 funcionen correctamente,cada uno sirve para:
 
-**sda**: el pin de datos (por defecto en ESP32 suele ser GPIO21,pero lo podemos cambiar a nuestro gusto).
+**sda**: el pin de datos (por defecto en ESP32 suele ser GPIO21).
 
 
-**scl**: el pin de reloj (por defecto en ESP32 suele ser GPIO22,pero lo podemos cambiar a nuestro gusto).
+**scl**: el pin de reloj (por defecto en ESP32 suele ser GPIO22).
 
 
 **scan: true**: permite que ESPHome escanee automáticamente dispositivos conectados al bus I²C y muestre sus direcciones durante la compilación/inicio.
