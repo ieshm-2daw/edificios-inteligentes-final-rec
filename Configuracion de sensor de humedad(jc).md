@@ -47,10 +47,13 @@ Una vez hecho todo esto nos iremos al resumen de nuestro **Home Assitant** y ver
 
 El siguiente sensor sera el de iluminosidad , que seguiremos los mismos pasos que hemos seguido antes con el de humedad pero cambiando algunos detalles.
 
-Una de los apartados que cambian es en nuestra **ESP32** el codigo que tenemos que poner para que el sensor de iluminocidad funcione.
-Que sera el siguiente:
+Una de los apartados que cambian es en nuestra **ESP32** el codigo que tenemos que poner para que el sensor de iluminocidad funcione.Ademas la sección i2c: activa y configura el bus necesario para que sensores como el BH1750 funcionen correctamente.
+Sera el siguiente:
 
 ![image](https://github.com/user-attachments/assets/667906ea-171a-43dc-a731-82e9decd003c)
+
+![image](https://github.com/user-attachments/assets/16999875-80e1-438c-bbf4-f6001289f006)
+
 
 
 Despues de esto lo que tendremos que hacer es la parte de instalar el archivo .yaml como ya hemos explicado antes.
