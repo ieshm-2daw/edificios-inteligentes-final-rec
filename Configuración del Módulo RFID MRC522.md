@@ -125,15 +125,6 @@ A continuación se muestran las imágenes y vídeos extraídos del proceso de co
 </a>
 
 
-<a href="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466">
-  <img src="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466" width="300"/>
-</a>
-
-
-<a href="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2">
-  <img src="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2" width="300"/>
-</a>
-
 
 <a href="https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/M%C3%B3dulo%20RFID%20MRC522.mp4" target="_blank">Haz click aquí para ir al enlace al video</a>
 
@@ -145,6 +136,15 @@ Por último he creado una automatización para probar el funcionamiento de nuest
 <a href="https://github.com/user-attachments/assets/b08d7ab9-a350-402d-a224-a0ca86f9395a">
   <img src="https://github.com/user-attachments/assets/b08d7ab9-a350-402d-a224-a0ca86f9395a" width="300"/>
 </a>
+
+<a href="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466">
+  <img src="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466" width="300"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2">
+  <img src="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2" width="300"/>
+</a>
+
 
 
 _Realizado por Alba Martín Díaz_
