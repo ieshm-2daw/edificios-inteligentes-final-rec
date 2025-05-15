@@ -80,6 +80,12 @@ Aqui os dejamos la imagenes de las configuraciones :
 
 Despues de esto lo que tendremos que hacer es la parte de instalar el archivo .yaml como ya hemos explicado antes y que no se nos olvide presionar el boton **boot** en nuestra **ESP32** para que la instalacion comience.
 
+Si lo hemos realido correctamente , en **resumen** nos tendra que aparecer la iluminosidad midiendose:
+
+
+![image](https://github.com/user-attachments/assets/be3e6fea-5978-4922-b396-b0e21f6ad7ed)
+
+
 Lo siguientes que haremos sera crear una automatizacion , para ello nos iremos a configuracion y a automatizaciones.
 
 ![image](https://github.com/user-attachments/assets/1a1a0fc7-469c-45a5-b523-aa270d22051a)
