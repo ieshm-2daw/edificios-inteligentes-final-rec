@@ -109,5 +109,7 @@ En nuestro caso hemos elegido el de iluminosidad y que suceda cuando este por en
 ![image](https://github.com/user-attachments/assets/a06b69c5-6f46-47ca-a151-f002e9a9ba30)
 
 
+Como podemos ver en esta imagen , cuando el sensor pasa de 30 el rele se enciende.
+![image](https://github.com/user-attachments/assets/94f0df7c-a274-4fa3-b916-693c15650e4e)
 
 
