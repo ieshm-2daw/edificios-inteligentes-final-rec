@@ -50,6 +50,7 @@ El siguiente sensor sera el de iluminosidad , que seguiremos los mismos pasos qu
 Una de los apartados que cambian es en nuestra **ESP32** el codigo que tenemos que poner para que el sensor de iluminocidad funcione.
 Que sera el siguiente:
 
-![image](https://github.com/user-attachments/assets/9a556513-5634-4de1-8a96-2934295980c2)
+![image](https://github.com/user-attachments/assets/667906ea-171a-43dc-a731-82e9decd003c)
+
 
 Despues de esto lo que tendremos que hacer es la parte de instalar el archivo .yaml como ya hemos explicado antes.
