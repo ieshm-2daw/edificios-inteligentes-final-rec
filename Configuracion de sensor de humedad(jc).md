@@ -47,8 +47,12 @@ Una vez hecho todo esto nos iremos al resumen de nuestro **Home Assitant** y ver
 
 El siguiente sensor sera el de iluminosidad , que seguiremos los mismos pasos que hemos seguido antes con el de humedad pero cambiando algunos detalles.
 
-Una de los apartados que cambian es en nuestra **ESP32** el codigo que tenemos que poner para que el sensor de iluminocidad funcione.Ademas la sección i2c: activa y configura el bus necesario para que sensores como el BH1750 funcionen correctamente.
-Sera el siguiente:
+Una de los apartados que cambian es en nuestra **ESP32** el codigo que tenemos que poner para que el sensor de iluminocidad funcione.Ademas la sección i2c: activa y configura el bus necesario para que sensores como el BH1750 funcionen correctamente,cada uno sirve para:
+**sda**: el pin de datos (por defecto en ESP32 suele ser GPIO21,pero lo podemos cambiar a nuestro gusto).
+**scl**: el pin de reloj (por defecto en ESP32 suele ser GPIO22,pero lo podemos cambiar a nuestro gusto).
+**scan: true**: permite que ESPHome escanee automáticamente dispositivos conectados al bus I²C y muestre sus direcciones durante la compilación/inicio.
+
+Aqui os dejamos la imagenes de las configuraciones :
 
 ![image](https://github.com/user-attachments/assets/667906ea-171a-43dc-a731-82e9decd003c)
 
