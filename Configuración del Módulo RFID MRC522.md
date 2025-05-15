@@ -13,6 +13,13 @@ Para guiarnos sobre dónde tenemos que situar los cables conforme a la dispsici�
   <img src="https://github.com/user-attachments/assets/a9237bb0-49b5-4bff-bfff-3a3ab0509a8b" width="300"/>
 </a>
 
+Los cables quedarían de la siguiente forma:
+
+<a href="https://github.com/user-attachments/assets/c3d0be61-46b2-41c9-9343-b4257bbed3d5">
+  <img src="https://github.com/user-attachments/assets/c3d0be61-46b2-41c9-9343-b4257bbed3d5" width="300"/>
+</a>
+
+
 - Color Blanco: Este cable está conectado al puerto SDA del módulo, que en nuestro ESP-32 corresponde al pin D5 (GPIO5). Este cable es responsable de la transmisión de datos en protocolos de comunicación como I2C, por lo que es fundamental asegurarse de que esté bien conectado para garantizar una correcta comunicación entre el módulo y la placa.
 
 - Color Naranja: Este cable corresponde al pin SCK del módulo, y en nuestra ESP-32 lo hemos conectado al pin D18 (GPIO18). El pin SCK (Serial Clock) se encarga de sincronizar la comunicación SPI entre dispositivos, actuando como señal de reloj.
@@ -34,12 +41,6 @@ MOSI (Master Out Slave In) es el canal por el cual el microcontrolador (ESP-32) 
 | ESP32             | GND    | D5     | D18     | D23      | D19   | 3V   |
 
 </div>
-
-A continuación se muestra cómo quedarían los cables definitivamente:
-
-<a href="https://github.com/user-attachments/assets/c3d0be61-46b2-41c9-9343-b4257bbed3d5">
-  <img src="https://github.com/user-attachments/assets/c3d0be61-46b2-41c9-9343-b4257bbed3d5" width="300"/>
-</a>
 
 
 ## Configuración en ESPHome:
