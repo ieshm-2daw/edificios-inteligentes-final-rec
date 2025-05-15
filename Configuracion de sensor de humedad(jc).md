@@ -4,7 +4,7 @@ Lo primero que tendremos que hacer sera **conectar el sensor de humedad y temper
 
 Para ello tendremos que conectar el puerto de 3.3v de nuestra ESP32 a la linea de positivo de nuestra protoboard,lo siguiente sera conectar de nuestra ESP32 el tierra al negativo de nuestra protoboard.El sensor de **humedad** se conectara a nuestra protoboard de la siguiente forma,conectando el pin de **VCC** al 3,3v de nestra protoboard (**el positivo**), el **GND** lo conectaremos al **negativo** y el pin de **DATA** a un puerto cualquiera de nuestra **ESP32** , que no sea ni tierra ni 3,3v.
 
-![IMG20250424105404](https://github.com/user-attachments/assets/9f0f28a1-d377-4959-adff-066f3880555a)
+<a href="https://github.com/user-attachments/assets/9f0f28a1-d377-4959-adff-066f3880555a" target="_blank">Haz click para ver la imagen</a>
 
 
 Ahora nos iremos a nuestro HomeAssitant , en el apartado de **ESPHome Builder** y le daremos a edit en nuestra **ESP32**.Una vez dentro tendremos que poner el siguiente codigo:
@@ -66,13 +66,12 @@ Aqui os dejamos la imagenes de las configuraciones :
 ![image](https://github.com/user-attachments/assets/16999875-80e1-438c-bbf4-f6001289f006)
 
 
-![IMG20250515112132](https://github.com/user-attachments/assets/8dd720b3-19f4-4c24-afc8-0f2a23e0a2de)
+<a href="https://github.com/user-attachments/assets/8dd720b3-19f4-4c24-afc8-0f2a23e0a2de" target="_blank">Haz click para ver la imagen</a>
 
 
-![IMG20250515111735](https://github.com/user-attachments/assets/b0b499e5-8037-4f53-96c6-c7bc6cd01fc8)
+<a href="https://github.com/user-attachments/assets/b0b499e5-8037-4f53-96c6-c7bc6cd01fc8" target="_blank">Haz click para ver la imagen</a>
 
 
 
 
-
-Despues de esto lo que tendremos que hacer es la parte de instalar el archivo .yaml como ya hemos explicado antes.
+Despues de esto lo que tendremos que hacer es la parte de instalar el archivo .yaml como ya hemos explicado antes y que no se nos olvide presionar el boton **boot** en nuestra **ESP32** para que la instalacion comience.
