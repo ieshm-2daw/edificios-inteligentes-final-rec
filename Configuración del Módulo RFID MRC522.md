@@ -7,6 +7,12 @@ El primer paso es conectar físicamente nuestro módulo RFID a nuestra ESP-32. P
 
 ## Identificación de conectores del sensor:
 
+Para guiarnos sobre dónde tenemos que situar los cables conforme a la dispsición de nuestros conectores, siempre utilizaremos como referencia la siguiente imagen:
+
+<a href="https://github.com/user-attachments/assets/a9237bb0-49b5-4bff-bfff-3a3ab0509a8b">
+  <img src="https://github.com/user-attachments/assets/a9237bb0-49b5-4bff-bfff-3a3ab0509a8b" width="300"/>
+</a>
+
 - Color Blanco: Este cable está conectado al puerto SDA del módulo, que en nuestro ESP-32 corresponde al pin D5 (GPIO5). Este cable es responsable de la transmisión de datos en protocolos de comunicación como I2C, por lo que es fundamental asegurarse de que esté bien conectado para garantizar una correcta comunicación entre el módulo y la placa.
 
 - Color Naranja: Este cable corresponde al pin SCK del módulo, y en nuestra ESP-32 lo hemos conectado al pin D18 (GPIO18). El pin SCK (Serial Clock) se encarga de sincronizar la comunicación SPI entre dispositivos, actuando como señal de reloj.
@@ -29,8 +35,11 @@ MOSI (Master Out Slave In) es el canal por el cual el microcontrolador (ESP-32) 
 
 </div>
 
-A continuación se muestran los enlaces para visualizar cómo quedarían los cables definitivamente:
-<a href="" target="_blank">Haz clic para ver la imagen</a>
+A continuación se muestra cómo quedarían los cables definitivamente:
+
+<a href="https://github.com/user-attachments/assets/c3d0be61-46b2-41c9-9343-b4257bbed3d5">
+  <img src="https://github.com/user-attachments/assets/c3d0be61-46b2-41c9-9343-b4257bbed3d5" width="300"/>
+</a>
 
 
 ## Configuración en ESPHome:
@@ -56,6 +65,24 @@ binary_sensor:
 
 Ya sólo nos quedaría guardar e instalar nuestro nuevo archivo actualizado, lo haremos con la opción Wirelessly para que nos esa más fácil y rápido, aunque también es posible cargarlo manualmente por USB.
 
+Así es como quedaría definitivamente nuestro código funcional:
+
+```
+spi:
+  clk_pin: GPIO18
+  mosi_pin: GPIO23
+  miso_pin: GPIO19
+
+rc522_spi:
+  cs_pin: GPIO5
+  update_interval: 1s
+
+binary_sensor:
+  - platform: rc522
+    uid: F3-B6-69-30
+    name: "RC522 RFID Tag"
+```
+
 
 ## Aplicación del módulo RC522:
 
@@ -76,6 +103,44 @@ Este módulo, además de ser económico y confiable, tiene múltiples aplicacion
 - Notificaciones de seguridad: Alertar si se abre la puerta o se queda vacía el aula.
 
 - Acceso a contenido educativo: Desbloqueo automático de archivos o exámenes al pasar una tarjeta.
+
+
+
+## Imágenes y vídeo:
+
+A continuación se muestran las imágenes y vídeos extraídos del proceso de configuración y montaje de nuestro módulo:
+
+<a href="https://github.com/user-attachments/assets/fa8f79e4-512a-40b6-a6bd-a6c5ee00e72e">
+  <img src="https://github.com/user-attachments/assets/fa8f79e4-512a-40b6-a6bd-a6c5ee00e72e" width="300"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/7e69f6f1-e823-4d46-9433-8b0ac443b7e8">
+  <img src="https://github.com/user-attachments/assets/7e69f6f1-e823-4d46-9433-8b0ac443b7e8" width="300"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/15eee5e3-2011-4891-abf3-735436dbf00a">
+  <img src="https://github.com/user-attachments/assets/15eee5e3-2011-4891-abf3-735436dbf00a" width="300"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466">
+  <img src="https://github.com/user-attachments/assets/00a51d68-f697-4d23-a7b4-4c67d1463466" width="300"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2">
+  <img src="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2" width="300"/>
+</a>
+
+
+<a href="https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/M%C3%B3dulo%20RFID%20MRC522.mp4" target="_blank">Haz click aquí para ir al enlace al video</a>
+
+
+## Automatización:
+
+Por último he creado una automatización para probar el funcionamiento de nuestro módulo combinado con un relé. La automatización en sí consiste en que si nuestro módulo recibe una lectura del NFC correspondiente, el relé alternará de estado, encendiéndose o apagándose dependiendo del estado original de este.
+
+<a href="https://github.com/user-attachments/assets/b08d7ab9-a350-402d-a224-a0ca86f9395a">
+  <img src="https://github.com/user-attachments/assets/b08d7ab9-a350-402d-a224-a0ca86f9395a" width="300"/>
+</a>
 
 
 _Realizado por Alba Martín Díaz_
