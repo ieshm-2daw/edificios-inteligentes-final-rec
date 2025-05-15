@@ -86,7 +86,13 @@ Si lo hemos realido correctamente , en **resumen** nos tendra que aparecer la il
 ![image](https://github.com/user-attachments/assets/be3e6fea-5978-4922-b396-b0e21f6ad7ed)
 
 
-Lo siguientes que haremos sera crear una automatizacion , para ello nos iremos a configuracion y a automatizaciones.
+Lo siguientes que haremos sera crear una automatizacion , para ello nos iremos a configuracion , a automatizaciones y le daremos a crear automatizacion.
 
 ![image](https://github.com/user-attachments/assets/1a1a0fc7-469c-45a5-b523-aa270d22051a)
+
+
+![image](https://github.com/user-attachments/assets/7f0b1f0a-884a-42b9-bdfd-623f74de9970)
+
+
+
 
