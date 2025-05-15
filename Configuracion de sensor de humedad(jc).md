@@ -62,7 +62,16 @@ Aqui os dejamos la imagenes de las configuraciones :
 
 ![image](https://github.com/user-attachments/assets/667906ea-171a-43dc-a731-82e9decd003c)
 
+
 ![image](https://github.com/user-attachments/assets/16999875-80e1-438c-bbf4-f6001289f006)
+
+
+![IMG20250515112132](https://github.com/user-attachments/assets/8dd720b3-19f4-4c24-afc8-0f2a23e0a2de)
+
+
+![IMG20250515111735](https://github.com/user-attachments/assets/b0b499e5-8037-4f53-96c6-c7bc6cd01fc8)
+
+
 
 
 
