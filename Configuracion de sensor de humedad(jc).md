@@ -94,5 +94,20 @@ Lo siguientes que haremos sera crear una automatizacion , para ello nos iremos a
 ![image](https://github.com/user-attachments/assets/7f0b1f0a-884a-42b9-bdfd-623f74de9970)
 
 
+Le daremos a añadir disipador,dispositivo y añadiremos el disipador que queramos:
+
+
+![image](https://github.com/user-attachments/assets/fe905288-c048-422f-9257-f2c130554220)
+
+
+En nuestro caso hemos elegido el de iluminosidad y que suceda cuando este por encima de 30 el medidor se encendera el rele y le daremos a guardar.
+
+
+![image](https://github.com/user-attachments/assets/f3b15ebd-0448-4862-9206-d160b8c9898b)
+
+
+![image](https://github.com/user-attachments/assets/a06b69c5-6f46-47ca-a151-f002e9a9ba30)
+
+
 
 
