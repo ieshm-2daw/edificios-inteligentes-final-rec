@@ -145,7 +145,7 @@ Por último, desde Home Assistant, instalamos los complementos que necesitemos. 
 
 
 ### Instalación de ESP-32 en ESPHome:
-Una vez realizado todos lo anterior, ahora pasaremos a instalar nuestra ESP-32 en ESPHome, para poder interactuar con la misma.
+Una vez realizado todo lo anterior, ahora pasaremos a instalar nuestra ESP-32 en ESPHome, para poder programarla.
 
 El primer paso es irnos al apartado ESPHome Builder de nuestro Home Assistant y una vez ahí pulsaríamos en el botón de "NEW DEVICE".
 
