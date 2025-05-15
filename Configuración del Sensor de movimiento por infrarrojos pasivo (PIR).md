@@ -60,11 +60,24 @@ Normalmente, estos sensores tienen dos potenciómetros (ruedita) que permiten re
    - Puede ir desde unos pocos segundos hasta varios minutos, dependiendo del sensor.
 
 
-### ¿Cómo saber cuál es cuál?
+### ¿Cómo saber cuál es cuál?:
 
 Muchos sensores tienen marcas como "TIME" y "SENS" al lado de las ruedecitas. Si no están marcadas, puedes hacer una prueba:
 - Mueve una rueda completamente a un lado, activa el sensor y observa.
 - Si el tiempo cambia, es TIME. Si cambia la distancia de detección, es SENS.
+
+
+### Automatización:
+
+Por último he creado una automatización para probar el funcionamiento de nuestro sensor combinado con un relé. La automatización en sí consiste en que si nuestro sensor percibe moviento, el relé se encenderá y al no percibirlo transcurrido el tiempo que hemos configurado en la ruedecita, el relé se apagará.
+
+<a href="https://github.com/user-attachments/assets/d0478fa3-b493-445c-b356-207d0a46cc52">
+  <img src="https://github.com/user-attachments/assets/d0478fa3-b493-445c-b356-207d0a46cc52" width="300"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/677e96be-05e0-4d2c-b015-6f90b2e84e98">
+  <img src="https://github.com/user-attachments/assets/677e96be-05e0-4d2c-b015-6f90b2e84e98" width="300"/>
+</a>
 
 
 _Realizado por Alba Martín Díaz_
