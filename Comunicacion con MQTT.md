@@ -44,4 +44,6 @@ Cuando hayamos escrito el codigo, le daremos a **"save"** y a **"instalar"**, e 
 
 ![image](https://github.com/user-attachments/assets/63309ced-1068-4aa6-8522-69bd69c8b656)
 
+Una vez instalado, tendremos que irnos a nuestro movil, para poder mandar información desde nuestro móvil tendremos que descargarnos la siguiente aplicación:
+
 
