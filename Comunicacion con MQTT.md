@@ -12,4 +12,11 @@ Una vez dentro presionaremos en la parte de abajo a la derecha donde pone **"tie
 ![image](https://github.com/user-attachments/assets/a88c0e0c-32a9-4df0-97f2-be3e33e2a645)
 
 
+Seguidamente en el navegador buscaremos la palabra **Mosquitto** y le daremos a instalar
+
+
+![image](https://github.com/user-attachments/assets/30dec620-5bb2-4082-8c76-e218fcfab579)
+
+
+
 
