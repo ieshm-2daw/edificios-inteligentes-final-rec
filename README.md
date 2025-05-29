@@ -11,6 +11,6 @@ En este repositorio vamos a explicar de qué manera se puede domotizar una aula.
 
 ## 5. [Configuración del Módulo RFID MRC522](https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/Configuraci%C3%B3n%20del%20M%C3%B3dulo%20RFID%20MRC522.md)
 
-## 6. [Instalación y configuración del sensor de humedad e iluminacion](https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/Configuraci%C3%B3n%20del%20M%C3%B3dulo%20RFID%20MRC522.md)
+## 6. [Instalación y configuración del sensor de humedad e iluminacion](https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/Configuracion%20de%20sensor%20de%20humedad(jc).md)
 
 ## 7. [Configuración del Módulo RFID MRC522](https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/Configuraci%C3%B3n%20del%20M%C3%B3dulo%20RFID%20MRC522.md)
