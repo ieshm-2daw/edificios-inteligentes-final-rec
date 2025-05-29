@@ -67,8 +67,11 @@ Después tendremos que configurar el Relé para poder activarlo y desactivarlo d
   <img src="https://github.com/user-attachments/assets/2fd43bfe-33e8-4149-a05e-6bccf34b2bf82" height="300"/>
 </a>
 
+
 Topic: Lo hemos configurado anteriormente en nuestro archivo YAML por lo que sería 2daw/luz.
+
 Payload_on: Mandará ON cuando se encienda.
+
 Payload_off: Mandará OFF cuando se apague.
 
 
