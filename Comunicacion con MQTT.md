@@ -44,6 +44,20 @@ Cuando hayamos escrito el codigo, le daremos a **"save"** y a **"instalar"**, e 
 
 ![image](https://github.com/user-attachments/assets/63309ced-1068-4aa6-8522-69bd69c8b656)
 
+
 Una vez instalado, tendremos que irnos a nuestro movil, para poder mandar información desde nuestro móvil tendremos que descargarnos la siguiente aplicación:
+
+
+![image](https://github.com/user-attachments/assets/80ece49a-c936-4538-a2d7-d5f29a4acb6c)
+
+
+Con la aplicación instalada, lo primero que tenemos que hacer es introducir los datos para conectar la aplicación a nuestro home assistant.
+
+
+
+
+
+Después tendremos que configurar el **sensor de temperatura** tanto en el .ymal , como en la aplicacion movil para que este nos envie la informacion.
+
 
 
