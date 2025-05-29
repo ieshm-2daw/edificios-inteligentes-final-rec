@@ -18,5 +18,9 @@ Seguidamente en el navegador buscaremos la palabra **Mosquitto** y le daremos a 
 ![image](https://github.com/user-attachments/assets/30dec620-5bb2-4082-8c76-e218fcfab579)
 
 
+Lo proximo es irnos a **EspHome Builder** y configurara nuestra **ESP32** para que funcione el **MQTT**
+
+
+![image](https://github.com/user-attachments/assets/63100e19-eddf-490b-befd-012d99cd6484)
 
 
