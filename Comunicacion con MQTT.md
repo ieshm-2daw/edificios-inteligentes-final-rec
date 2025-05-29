@@ -4,3 +4,12 @@ Lo primero que tendremos que hacer sera irnes en nuestro HomeAssitant a la parte
 
 
 ![image](https://github.com/user-attachments/assets/2c017f24-2a55-4506-a48a-61e715207778)
+
+
+Una vez dentro presionaremos en la parte de abajo a la derecha donde pone **"tienda de complementos"**
+
+
+![image](https://github.com/user-attachments/assets/a88c0e0c-32a9-4df0-97f2-be3e33e2a645)
+
+
+
