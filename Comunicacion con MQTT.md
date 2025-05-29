@@ -1,4 +1,4 @@
-
+## COMUNICACION CON MQTT.
 
 Lo primero que tendremos que hacer sera irnes en nuestro HomeAssitant a la parte de configuracion,buscando el apartado de complementos y presionando en el.
 
@@ -37,4 +37,11 @@ mqtt:
   username: "jca_rec"
   password: "JCA"
   keepalive: 10s
+
+
+Cuando hayamos escrito el codigo, le daremos a **"save"** y a **"instalar"**, e instalaremos el archivo **.yaml** como ya hemos hecho en todas estas ocasiones atras.
+
+
+![image](https://github.com/user-attachments/assets/63309ced-1068-4aa6-8522-69bd69c8b656)
+
 
