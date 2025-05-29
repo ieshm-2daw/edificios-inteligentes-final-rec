@@ -1,4 +1,4 @@
-##Instalacion y configuracion del sensor de humedad.
+## Instalacion y configuracion del sensor de humedad.
 
 Lo primero que tendremos que hacer sera **conectar el sensor de humedad y temperatura** a nuestra **ESP32** mediante nuestra **protoboard**.
 
