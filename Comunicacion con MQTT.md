@@ -59,5 +59,14 @@ Con la aplicación instalada, lo primero que tenemos que hacer es introducir los
 
 Después tendremos que configurar el **sensor de temperatura** tanto en el .ymal , como en la aplicacion movil para que este nos envie la informacion.
 
+En el .yaml:
+
+![image](https://github.com/user-attachments/assets/837d3db7-99b1-4659-b805-366fb1d39560)
+
+
+![image](https://github.com/user-attachments/assets/15ce2516-3140-4d92-9d4a-9f00545a6458)
+
+
+En nuestro dispositivo movil:
 
 
