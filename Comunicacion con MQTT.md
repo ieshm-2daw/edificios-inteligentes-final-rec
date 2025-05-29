@@ -24,3 +24,17 @@ Lo proximo es irnos a **EspHome Builder** y configurara nuestra **ESP32** para q
 ![image](https://github.com/user-attachments/assets/63100e19-eddf-490b-befd-012d99cd6484)
 
 
+Una vez dentro indrocuciremos el siguiente codigo:
+
+
+![image](https://github.com/user-attachments/assets/1d9b6c33-8b24-472b-838e-9de11a6f7d05)
+
+
+#CONFIGURACION MQTT
+
+mqtt:
+  broker: "192.168.4.206"
+  username: "jca_rec"
+  password: "JCA"
+  keepalive: 10s
+
