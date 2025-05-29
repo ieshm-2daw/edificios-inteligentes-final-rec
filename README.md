@@ -13,4 +13,4 @@ En este repositorio vamos a explicar de qué manera se puede domotizar una aula.
 
 ## 6. [Instalación y configuración del sensor de humedad e iluminacion](https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/Configuracion%20de%20sensor%20de%20humedad(jc).md)
 
-## 7. [Comunicacion con MQTT](https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/Comunicacion%20con%20MQTT)
+## 7. [Comunicacion con MQTT](https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/Comunicacion%20con%20MQTT.md)
