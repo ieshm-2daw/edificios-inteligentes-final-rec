@@ -17,14 +17,14 @@ El objetivo principal es crear un sistema de domotización que permita controlar
 - **Relé**: Componente físico que nos permitirá encender o apagar el PC. El relé será controlado por el ESP32.
 - **Tarjeta RFID**: Configurada para ser reconocida por el sistema.
 - **Broker MQTT**: Facilita la comunicación entre el ESP32 y la aplicación móvil. En este caso, utilizaremos Mosquitto integrado en Home Assistant.
-- **Aplicación MQTT para Móvil**: IoT MQTT Panel nos permitirá monitorizar y controlar el estado del relé desde su móvil, siempre y cuando se haya autenticado previamente con la tarjeta RFID.
+- **Aplicación MQTT para Móvil**: IoT MQTT Panel nos permite monitorizar y controlar el estado del relé desde su móvil, siempre y cuando se haya autenticado previamente con la tarjeta RFID.
 
 
 ## Lógica de Funcionamiento
 ## Autenticación con RFID
-- **Detección de la Tarjeta RFID**: Cuando el sensor RFID detecte la tarjeta autorizada, enviará una señal al ESP32.
-- **Activación del Relé**: El ESP32 activará el relé, lo que encenderá el PC.
-- **Modo Autorizado**: Al detectar la tarjeta, el ESP32 activa un "modo autorizado" que permite el control remoto a través de MQTT durante un periodo de 8 horas.
+- **Detección de la tarjeta RFID**: Cuando el sensor RFID detecte la tarjeta autorizada, enviará una señal al ESP32.
+- **Activación del relé**: El ESP32 activará el relé, lo que encenderá el PC.
+- **Modo autorizado**: Al detectar la tarjeta, el ESP32 activa un "modo autorizado" que permite el control remoto a través de MQTT durante un periodo de 8 horas.
 
 ```
 binary_sensor:
@@ -55,8 +55,8 @@ binary_sensor:
 
 
 ## Temporizador de Autenticación
-- **Iniciar Temporizador**: Una vez autenticado con la tarjeta RFID, se inicia un temporizador de 8 horas. Durante este tiempo, el usuario puede controlar el relé desde la aplicación móvil.
-- **Finalización del Temporizador**: Después de 8 horas, el "modo autorizado" se desactiva automáticamente, y el usuario debe volver a autenticarse con la tarjeta RFID para reactivar el control remoto.
+- **Iniciar temporizador**: Una vez autenticado con la tarjeta RFID, se inicia un temporizador de 8 horas. Durante este tiempo, el usuario puede controlar el relé desde la aplicación móvil.
+- **Finalización del temporizador**: Después de 8 horas, el "modo autorizado" se desactiva automáticamente, y el usuario debe volver a autenticarse con la tarjeta RFID para reactivar el control remoto.
 
 
 ```
@@ -73,8 +73,8 @@ on_press:
 ```
 
 ## Comunicación MQTT
-- **Publicación de Estados**: El ESP32 publica el estado del relé (encendido/apagado) en un tema MQTT (2daq/relay/state) cada vez que cambia el estado.
-- **Suscripción a Comandos**: El ESP32 está suscrito a un tema MQTT (2daw/relay/command) para recibir comandos desde la aplicación móvil. Solo actúa sobre estos comandos si el "modo autorizado" está activo.
+- **Publicación de estados**: El ESP32 publica el estado del relé (encendido/apagado) en un tema MQTT (2daq/relay/state) cada vez que cambia el estado.
+- **Suscripción a comandos**: El ESP32 está suscrito a un tema MQTT (2daw/relay/command) para recibir comandos desde la aplicación móvil. Solo actúa sobre estos comandos si el "modo autorizado" está activo.
 
 
 ```
@@ -99,15 +99,17 @@ mqtt:
 ```
 
 
-## Interacción entre Componentes
-1. **Autenticación Inicial**: El usuario pasa la tarjeta RFID autorizada frente al sensor.
-2. **Activación del Relé**: El ESP32 activa el relé, encendiendo el PC, y activa el "modo autorizado".
-3. **Control Remoto**: Durante las siguientes 8 horas, el usuario puede enviar comandos MQTT desde la aplicación móvil para controlar el relé.
-4. **Finalización del Modo Autorizado**: Después de 8 horas, el "modo autorizado" se desactiva, y el usuario debe volver a autenticarse con la tarjeta RFID para reactivar el control remoto.
+## Interacción entre componentes
+1. **Autenticación inicial**: El usuario pasa la tarjeta RFID autorizada frente al sensor.
+2. **Activación del relé**: El ESP32 activa el relé, encendiendo el PC, y activa el "modo autorizado".
+3. **Control remoto**: Durante las siguientes 8 horas, el usuario puede enviar comandos MQTT desde la aplicación móvil para controlar el relé.
+4. **Finalización del modo autorizado**: Después de 8 horas, el "modo autorizado" se desactiva, y el usuario debe volver a autenticarse con la tarjeta RFID para reactivar el control remoto.
 
 
-## Consideraciones de Seguridad:
-- **Autenticación en Dos Pasos**: El control remoto solo es posible después de una autenticación física con la tarjeta RFID.
+## Consideraciones de seguridad:
+- **Autenticación en dos pasos**: El control remoto solo es posible después de una autenticación física con la tarjeta RFID.
+- **Cifrado MQTT**: Se recomienda usar MQTT con cifrado (por ejemplo, MQTT sobre TLS) para asegurar la comunicación entre el ESP32 y el broker.
+- **Red local segura**: Asegurar que la red local está protegida para evitar accesos no autorizados.
 
 ## Conexiones
 
@@ -235,7 +237,7 @@ mqtt:
             - switch.turn_off: relay_control
 ```
 
-
+(A continuación se presentan los informes realizados previamente, que detallan la correcta conexión y configuración tanto del módulo RFID con el relé, como la conexión y comunicación mediante MQTT con Home Assistant.)
 
 ## CONFIGURACIÓN DEL MÓDULO RFID MRC522:
 
@@ -362,7 +364,7 @@ A continuación se muestran las imágenes y vídeos extraídos del proceso de co
   <img src="https://github.com/user-attachments/assets/7eff329c-432f-44d1-8bc4-c4711f4852d2" width="300"/>
 </a>
 
-<a href="https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/M%C3%B3dulo%20RFID%20MRC522.mp4" target="_blank">Haz click aquí para ir al enlace al video</a>
+<a href="https://github.com/ieshm-2daw/edificios-inteligentes-final-rec/blob/main/M%C3%B3dulo%20RFID%20MRC522.mp4" target="_blank">Haz clic aquí para ir al enlace al video</a>
 
 
 ## Automatización:
@@ -384,7 +386,7 @@ Por último he creado una automatización para probar el funcionamiento de nuest
 
 ## CONTROL DE RELÉ CON ESP32 MEDIANTE MQTT:
 
-En este apartado vamos a instalar y configurar el módulo relé que vamos a utilizar con nuestra ESP32. Este módulo nos permitirá encender o agapar dispositivos eléctricos de forma remota, mediante comunicación MQTT desde una app móvil (IoT MQTT Panel) y gestionando a través de Home Assistant usando el broker Mosquitto.
+En este apartado vamos a instalar y configurar el módulo relé que vamos a utilizar con nuestra ESP32. Este módulo nos permitirá encender o apagar dispositivos eléctricos de forma remota, mediante comunicación MQTT desde una app móvil (IoT MQTT Panel) y gestionando a través de Home Assistant usando el broker Mosquitto.
 
 
 ## Instalación del complemento:
@@ -463,7 +465,7 @@ Payload_off: Mandará OFF cuando se apague.
 
 A continuación, pasaremos a realizar las correspondientes automatizaciones con las que conseguiremos interactuar con nuestro relé tanto desde el PC como desde nuestro terminal móvil.
 
-En primer lugar, realizaremos una automatización para que cuando se reciba un mensaje predeterminado por MQTT, en este caso ON, se encianda nuestro Relé.
+En primer lugar, realizaremos una automatización para que cuando se reciba un mensaje predeterminado por MQTT, en este caso ON, se encienda nuestro Relé.
 
 <a href="https://github.com/user-attachments/assets/13fb85c6-146d-4259-968e-f964a88a833a">
   <img src="https://github.com/user-attachments/assets/13fb85c6-146d-4259-968e-f964a88a833a" width="300"/>
