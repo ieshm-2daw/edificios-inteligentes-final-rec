@@ -485,3 +485,6 @@ Aprovechando que anteriormente realizamos la integración del Relé con el módu
 <a href="https://github.com/user-attachments/assets/081c013f-17e6-47b6-bacc-c7ea94875e31">
   <img src="https://github.com/user-attachments/assets/081c013f-17e6-47b6-bacc-c7ea94875e31" width="300"/>
 </a>
+
+
+_Realizado por Alba Martín Díaz_
