@@ -72,7 +72,8 @@ En nuestro dispositivo movil:
 Lo primero que tendremos que hacer nada mas abrir la aplicacion sera introducir los siguientes datos que hemos configurado antes en el **.yaml**
 
 
-![image](https://github.com/user-attachments/assets/e59d9865-ec2b-4443-a25f-70864d78510d)
+<a href="https://github.com/user-attachments/assets/e59d9865-ec2b-4443-a25f-70864d78510d" target="_blank">Haz click para ver la imagen</a>
+
 
 
 
