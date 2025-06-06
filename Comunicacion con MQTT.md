@@ -81,11 +81,19 @@ Una vez hecho esto , nos tendra que aparecer algo asi y que la nube que aparece 
 <a href="https://github.com/user-attachments/assets/903c154a-993e-4b20-ab0f-896e51bd761f" target="_blank">Haz click para ver la imagen</a>
 
 
-Ahora configuraremos el dashboard escribiendo los siguientes datos.
+Ahora configuraremos el dashboard de temperatura como el de humedad, escribiendo los siguientes datos .
 
 
 <a href="https://github.com/user-attachments/assets/41c60668-2e79-4e5d-88e2-547325998774" target="_blank">Haz click para ver la imagen</a>
 
+
+<a href="https://github.com/user-attachments/assets/5decba50-87b3-4771-a39d-83b378e8105f" target="_blank">Haz click para ver la imagen</a>
+
+
+Si todo ha salido bien, deberia ver algo tal que asi:
+
+
+<a href="https://github.com/user-attachments/assets/7444742f-5851-47f4-951d-104cf8ab2a5c" target="_blank">Haz click para ver la imagen</a>
 
 
 
