@@ -75,6 +75,17 @@ Lo primero que tendremos que hacer nada mas abrir la aplicacion sera introducir 
 <a href="https://github.com/user-attachments/assets/e59d9865-ec2b-4443-a25f-70864d78510d" target="_blank">Haz click para ver la imagen</a>
 
 
+Una vez hecho esto , nos tendra que aparecer algo asi y que la nube que aparece arriba a la derecha este de color naranja,para saber que tenemos conoxion.
+
+
+<a href="https://github.com/user-attachments/assets/903c154a-993e-4b20-ab0f-896e51bd761f" target="_blank">Haz click para ver la imagen</a>
+
+
+Ahora configuraremos el dashboard escribiendo los siguientes datos.
+
+
+<a href="https://github.com/user-attachments/assets/41c60668-2e79-4e5d-88e2-547325998774" target="_blank">Haz click para ver la imagen</a>
+
 
 
 
