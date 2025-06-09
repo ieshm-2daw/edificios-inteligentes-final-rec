@@ -1,16 +1,16 @@
-# Sistema de Domotización con ESP32, RFID y MQTT
+# Sistema de Domotización con ESP32, RFID y MQTT:
 
-## Introducción
+## Introducción:
 
 Este proyecto describe la implementación de un sistema de domotización que permite controlar el encendido y apagado de un PC utilizando un sensor RFID para autenticación y un relé para el control físico. Además, se integra MQTT para permitir el monitoreo y control remoto desde una aplicación móvil, con restricciones de seguridad basadas en un temporizador de autenticación.
 
 
-## Objetivo del Proyecto
+## Objetivo del Proyecto:
 
 El objetivo principal es crear un sistema de domotización que permita controlar el encendido y apagado de un PC de manera segura utilizando una tarjeta RFID para autenticación física y una aplicación móvil para control remoto, todo ello gestionado a través de un ESP32 y comunicado mediante MQTT.
 
 
-## Componentes Necesarios
+## Componentes Necesarios:
 
 - **ESP32**: Actúa como el cerebro del sistema, gestionando la lógica de control, la comunicación con el sensor RFID, el relé y el broker MQTT.
 - **Sensor RFID RC522**: Utilizado para autenticar al usuario mediante una tarjeta RFID específica. Solo la tarjeta autorizada puede activar o desactivar el sistema.
@@ -20,8 +20,8 @@ El objetivo principal es crear un sistema de domotización que permita controlar
 - **Aplicación MQTT para Móvil**: IoT MQTT Panel nos permite monitorizar y controlar el estado del relé desde su móvil, siempre y cuando se haya autenticado previamente con la tarjeta RFID.
 
 
-## Lógica de Funcionamiento
-## Autenticación con RFID
+## Lógica de Funcionamiento:
+## Autenticación con RFID:
 - **Detección de la tarjeta RFID**: Cuando el sensor RFID detecte la tarjeta autorizada, enviará una señal al ESP32.
 - **Activación del relé**: El ESP32 activará el relé, lo que encenderá el PC.
 - **Modo autorizado**: Al detectar la tarjeta, el ESP32 activa un "modo autorizado" que permite el control remoto a través de MQTT durante un periodo de 8 horas.
@@ -54,7 +54,7 @@ binary_sensor:
 ```
 
 
-## Temporizador de Autenticación
+## Temporizador de Autenticación:
 - **Iniciar temporizador**: Una vez autenticado con la tarjeta RFID, se inicia un temporizador de 8 horas. Durante este tiempo, el usuario puede controlar el relé desde la aplicación móvil.
 - **Finalización del temporizador**: Después de 8 horas, el "modo autorizado" se desactiva automáticamente, y el usuario debe volver a autenticarse con la tarjeta RFID para reactivar el control remoto.
 
@@ -72,7 +72,7 @@ on_press:
         value: 'false'
 ```
 
-## Comunicación MQTT
+## Comunicación MQTT:
 - **Publicación de estados**: El ESP32 publica el estado del relé (encendido/apagado) en un tema MQTT (2daq/relay/state) cada vez que cambia el estado.
 - **Suscripción a comandos**: El ESP32 está suscrito a un tema MQTT (2daw/relay/command) para recibir comandos desde la aplicación móvil. Solo actúa sobre estos comandos si el "modo autorizado" está activo.
 
@@ -99,7 +99,7 @@ mqtt:
 ```
 
 
-## Interacción entre componentes
+## Interacción entre componentes:
 1. **Autenticación inicial**: El usuario pasa la tarjeta RFID autorizada frente al sensor.
 2. **Activación del relé**: El ESP32 activa el relé, encendiendo el PC, y activa el "modo autorizado".
 3. **Control remoto**: Durante las siguientes 8 horas, el usuario puede enviar comandos MQTT desde la aplicación móvil para controlar el relé.
@@ -111,9 +111,9 @@ mqtt:
 - **Cifrado MQTT**: Se recomienda usar MQTT con cifrado (por ejemplo, MQTT sobre TLS) para asegurar la comunicación entre el ESP32 y el broker.
 - **Red local segura**: Asegurar que la red local está protegida para evitar accesos no autorizados.
 
-## Conexiones
+## Conexiones:
 
-### Conexión del Sensor RFID RC522 al ESP32
+### Conexión del Sensor RFID RC522 al ESP32:
 
 | Pin RC522 | Pin ESP32 |
 |-----------|-----------|
@@ -122,14 +122,14 @@ mqtt:
 | MISO      | GPIO19    |
 | SS        | GPIO5     |
 
-### Conexión del Relé al ESP32
+### Conexión del Relé al ESP32:
 
 - **Pin de control del relé**: Conectado a GPIO17 del ESP32.
 - **Alimentación del relé**: Conectada a la fuente de alimentación del PC.
 
-## Configuración del Software
+## Configuración del Software:
 
-### Configuración del ESP32 con ESPHome
+### Configuración del ESP32 con ESPHome:
 
 ```
 esphome:
@@ -236,6 +236,7 @@ mqtt:
           then:
             - switch.turn_off: relay_control
 ```
+
 
 (A continuación se presentan los informes realizados previamente, que detallan la correcta conexión y configuración tanto del módulo RFID con el relé, como la conexión y comunicación mediante MQTT con Home Assistant.)
 
@@ -485,6 +486,19 @@ Aprovechando que anteriormente realizamos la integración del Relé con el módu
 <a href="https://github.com/user-attachments/assets/081c013f-17e6-47b6-bacc-c7ea94875e31">
   <img src="https://github.com/user-attachments/assets/081c013f-17e6-47b6-bacc-c7ea94875e31" width="300"/>
 </a>
+
+
+## RESOLUCIÓN Y FUNCIONAMIENTO FINAL:
+
+Una vea que todo el sistema está configurado y operativo, el funcionamiento final sería el siguiente:
+
+1. **Autenticación inicial con RFID**: El alumno llega a clase con su tarjeta personal y la pasa por el lector RFID, el sensor detecta la tarjeta y envía una señal al ESP32 y entonces es cuando el ESP32 activaría el relé, encendiendo el PC del alumno y pasando a activarse el "modo autorizado" que le permitirá el control remoto a través de la comunicación MQTT durante las próximas 8 horas a partir de la autenticación.
+2. **Control remoto mediante MQTT**: Durante esas próximas 8 horas, el alumno podrá controlar el relé desde la aplicación IoT MQTT Panel en su móvil. La aplicación está configurada para conectarse al broker y suscribirse al tema 2daw/relay/state para recibir las actualizaciones del estado del relé. El alumno podrá enviar comandos "ON" y "OFF" al tema 2daw/relay/command para controlar el relé desde la aplicación móvil.
+3. **Finalización del modo autorizado**: Pasadas las 8 horas después de la autenticación, el "modo autorizado" se desactivará automáticamente. Por lo que el alumno debe volver a autenticarse con la tarjeta RFID para poder reactivar ese control remoto. Pero si el alumno pasa de nuevo la tarjeta RFID mientras el "modo autorizado" está activo, el sistema desactivará ese "modo autorizado" y apagará el relé, apagando consecuentemente el PC.
+4. **Notificaciones y Monitoreo**: El ESP32 publicará el estado del relé en el tema MQTT 2daw/relay/state cada vez que cambie de estado. A su vez, la aplicación recibirá estas notificaciones ya que está suscrita a dicho tema y mostrará el estado actual del relé, permitiendo al alumno monitorizar el estado de su PC en tiempo real.
+
+De esta manera tendríamos una domotización completa para un elemento esencial en el aula, en el que combinamos todo lo que hemos aprendido anteriormente.
+
 
 
 _Realizado por Alba Martín Díaz_
